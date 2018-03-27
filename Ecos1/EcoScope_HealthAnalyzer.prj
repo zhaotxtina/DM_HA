@@ -1,0 +1,204 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="1108288502" file="D:\TFS_code\EcoScope\EcoScope_HealthAnalyzer.prj" location="D:\TFS_code\EcoScope" name="EcoScope_HealthAnalyzer" preferred-package-location="D:\TFS_code\EcoScope\EcoScope_HealthAnalyzer\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="MATLAB Compiler for Standalone Applications">
+    <param.appname>EcoScope_HealthAnalyzer</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>2.0</param.version>
+    <param.authnamewatermark>Bo Hu</param.authnamewatermark>
+    <param.email>bhu2@slb.com</param.email>
+    <param.company>Schlumberger</param.company>
+    <param.summary />
+    <param.description>EcoScope Automated Diagnostics Module</param.description>
+    <param.screenshot>C:\Users\BHu2\Desktop\EcoScope.bmp</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\Schlumberger\EcoScope_HealthAnalyzer\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\EcoScope_HealthAnalyzer\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\EcoScope_HealthAnalyzer\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\EcoScope_HealthAnalyzer\for_redistribution</param.output>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.server.ctf>${PROJECT_ROOT}\EcoScope_HealthAnalyzer\for_testing\.ctf</param.server.ctf>
+    <param.server.readme>${PROJECT_ROOT}\EcoScope_HealthAnalyzer\for_testing\readme.txt</param.server.readme>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.required.mcr.products>
+      <item>35000</item>
+    </param.required.mcr.products>
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>true</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>EcoScopeInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>EcoScopeInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>true</param.create.log>
+    <param.log.file>EcoScope_HealthAnalyzer.txt</param.log.file>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.server.ctf />
+      <param.server.readme />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.no.mcr />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\EcoScope_HealthAnalyzer.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\AllChanNameSW.mat</file>
+      <file>${PROJECT_ROOT}\aspNetMHT.dll</file>
+      <file>${PROJECT_ROOT}\cell2csv.m</file>
+      <file>${PROJECT_ROOT}\DataFiltering.m</file>
+      <file>${PROJECT_ROOT}\DeleteEmptyExcelSheets.m</file>
+      <file>${PROJECT_ROOT}\DevAge.Core.dll</file>
+      <file>${PROJECT_ROOT}\DevAge.Drawing.dll</file>
+      <file>${PROJECT_ROOT}\DevAge.SourceGrid3.dll</file>
+      <file>${PROJECT_ROOT}\DevAge.Windows.Forms.dll</file>
+      <file>${PROJECT_ROOT}\DevExpress.Data.v10.1.dll</file>
+      <file>${PROJECT_ROOT}\DevExpress.Utils.v10.1.dll</file>
+      <file>${PROJECT_ROOT}\DevExpress.XtraBars.v10.1.dll</file>
+      <file>${PROJECT_ROOT}\DevExpress.XtraEditors.v10.1.dll</file>
+      <file>${PROJECT_ROOT}\DevExpress.XtraGrid.v10.1.dll</file>
+      <file>${PROJECT_ROOT}\DevExpress.XtraLayout.v10.1.dll</file>
+      <file>${PROJECT_ROOT}\DevExpress.XtraVerticalGrid.v10.1.dll</file>
+      <file>${PROJECT_ROOT}\DisplayStatusWords.fig</file>
+      <file>${PROJECT_ROOT}\DisplayStatusWords.m</file>
+      <file>${PROJECT_ROOT}\EcoScope_HealthAnalyzer.fig</file>
+      <file>${PROJECT_ROOT}\EcoScope_SubsystemAnalysis.fig</file>
+      <file>${PROJECT_ROOT}\EcoScope_SubsystemAnalysis.m</file>
+      <file>${PROJECT_ROOT}\EcoScopeLimitChecks.m</file>
+      <file>${PROJECT_ROOT}\EcoscopeShockChecks.m</file>
+      <file>${PROJECT_ROOT}\EcoScopeStatusWordsCheck.m</file>
+      <file>${PROJECT_ROOT}\EcoScopeSVMPredict.m</file>
+      <file>${PROJECT_ROOT}\EnvChannel.mat</file>
+      <file>${PROJECT_ROOT}\fsFisher.m</file>
+      <file>${PROJECT_ROOT}\GGD_Techlog_model.mat</file>
+      <file>${PROJECT_ROOT}\GGDFormatsChannel.mat</file>
+      <file>${PROJECT_ROOT}\GGDTechlogHealthyTrainData.mat</file>
+      <file>${PROJECT_ROOT}\Gigasoft.ProEssentials.dll</file>
+      <file>${PROJECT_ROOT}\Ionic.Zip.dll</file>
+      <file>${PROJECT_ROOT}\LoadDumpDataCSV.m</file>
+      <file>${PROJECT_ROOT}\MathNet.Iridium.dll</file>
+      <file>${PROJECT_ROOT}\Microsoft.Office.Interop.Excel.dll</file>
+      <file>${PROJECT_ROOT}\Microsoft.Vbe.Interop.dll</file>
+      <file>${PROJECT_ROOT}\NBI_Techlog_model.mat</file>
+      <file>${PROJECT_ROOT}\NBIFormatsChannel.mat</file>
+      <file>${PROJECT_ROOT}\NBITechlogHealthyTrainData.mat</file>
+      <file>${PROJECT_ROOT}\NCalc.dll</file>
+      <file>${PROJECT_ROOT}\NGD_Techlog_model.mat</file>
+      <file>${PROJECT_ROOT}\NGDFormatsChannel.mat</file>
+      <file>${PROJECT_ROOT}\NGDTechlogHealthyTrainData.mat</file>
+      <file>${PROJECT_ROOT}\NGR_Techlog_model.mat</file>
+      <file>${PROJECT_ROOT}\NGRFormatsChannel.mat</file>
+      <file>${PROJECT_ROOT}\NGRTechlogHealthyTrainData.mat</file>
+      <file>${PROJECT_ROOT}\nmahal.m</file>
+      <file>${PROJECT_ROOT}\NP_Techlog_model.mat</file>
+      <file>${PROJECT_ROOT}\NPFormatsChannel.mat</file>
+      <file>${PROJECT_ROOT}\NPTechlogHealthyTrainData.mat</file>
+      <file>${PROJECT_ROOT}\percentile.m</file>
+      <file>${PROJECT_ROOT}\PHMDataFileGeneration.exe</file>
+      <file>${PROJECT_ROOT}\PHMDataFileGeneration.exe.config</file>
+      <file>${PROJECT_ROOT}\PHMDataFileGeneration.vshost.exe</file>
+      <file>${PROJECT_ROOT}\PHMDataFileGeneration.vshost.exe.config</file>
+      <file>${PROJECT_ROOT}\PNG_Techlog_model.mat</file>
+      <file>${PROJECT_ROOT}\PNGFormatsChannel.mat</file>
+      <file>${PROJECT_ROOT}\PNGOnOffFiltering.m</file>
+      <file>${PROJECT_ROOT}\PNGTechlogHealthyTrainData.mat</file>
+      <file>${PROJECT_ROOT}\Power_Techlog_model.mat</file>
+      <file>${PROJECT_ROOT}\PowerFormatsChannel.mat</file>
+      <file>${PROJECT_ROOT}\PowerTechlogHealthyTrainData.mat</file>
+      <file>${PROJECT_ROOT}\ResisFormatsChannel.mat</file>
+      <file>${PROJECT_ROOT}\Resistivity_Techlog_model.mat</file>
+      <file>${PROJECT_ROOT}\ResistivityTechlogHealthyTrainData.mat</file>
+      <file>${PROJECT_ROOT}\Rotary_Techlog_model.mat</file>
+      <file>${PROJECT_ROOT}\RotaryFormatsChannel.mat</file>
+      <file>${PROJECT_ROOT}\RotaryTechlogHealthyTrainData.mat</file>
+      <file>${PROJECT_ROOT}\Slb.BGCShared.Access.PUC.Client.3.2012.1.dll</file>
+      <file>${PROJECT_ROOT}\Slb.BGCShared.Access.PUC.Common.3.2012.1.dll</file>
+      <file>${PROJECT_ROOT}\Slb.ToolScope.Framework.ApplicationConfiguration.dll</file>
+      <file>${PROJECT_ROOT}\Slb.ToolScope.Framework.Data.dll</file>
+      <file>${PROJECT_ROOT}\Slb.ToolScope.Framework.Data.Interface.dll</file>
+      <file>${PROJECT_ROOT}\Slb.ToolScope.Framework.Data.Schema.Core.dll</file>
+      <file>${PROJECT_ROOT}\Slb.ToolScope.Framework.Data.Schema.Core.XmlSerializers.dll</file>
+      <file>${PROJECT_ROOT}\Slb.ToolScope.Framework.Data.Schema.FrameBuilderWizard.dll</file>
+      <file>${PROJECT_ROOT}\Slb.ToolScope.Framework.Data.Schema.FrameBuilderWizard.XmlSerializers.dll</file>
+      <file>${PROJECT_ROOT}\Slb.ToolScope.Framework.Data.TestXmlSchema.dll</file>
+      <file>${PROJECT_ROOT}\Slb.ToolScope.Framework.Data.ToolConfiguration.dll</file>
+      <file>${PROJECT_ROOT}\Slb.ToolScope.Framework.DataAccessTier.Communications.dll</file>
+      <file>${PROJECT_ROOT}\Slb.ToolScope.Framework.DataAccessTier.Communications.IsbOpcodes.dll</file>
+      <file>${PROJECT_ROOT}\Slb.ToolScope.Framework.DataAccessTier.dll</file>
+      <file>${PROJECT_ROOT}\Slb.ToolScope.Framework.DataAccessTier.Serialization.dll</file>
+      <file>${PROJECT_ROOT}\Slb.ToolScope.Framework.DataAccessTier.ToolData.dll</file>
+      <file>${PROJECT_ROOT}\Slb.ToolScope.Framework.Environment.dll</file>
+      <file>${PROJECT_ROOT}\Slb.ToolScope.Framework.Interfaces.dll</file>
+      <file>${PROJECT_ROOT}\Slb.ToolScope.Framework.LogicTier.Core.dll</file>
+      <file>${PROJECT_ROOT}\Slb.ToolScope.Framework.LogicTier.Core.Implementation.dll</file>
+      <file>${PROJECT_ROOT}\Slb.ToolScope.Framework.LogicTier.dll</file>
+      <file>${PROJECT_ROOT}\Slb.ToolScope.Framework.LogicTier.ToolControl.dll</file>
+      <file>${PROJECT_ROOT}\Slb.ToolScope.Framework.UITier.dll</file>
+      <file>${PROJECT_ROOT}\Slb.ToolScope.Framework.UITier.Forms.dll</file>
+      <file>${PROJECT_ROOT}\Slb.ToolScope.Framework.UITier.MainForm.dll</file>
+      <file>${PROJECT_ROOT}\Slb.ToolScope.Framework.UITier.Tasks.dll</file>
+      <file>${PROJECT_ROOT}\Slb.ToolScope.Framework.UITier.Tasks.xml</file>
+      <file>${PROJECT_ROOT}\Slb.ToolScope.Framework.Utility.dll</file>
+      <file>${PROJECT_ROOT}\Slb.ToolScope.Simulator.dll</file>
+      <file>${PROJECT_ROOT}\StatusFormatsChannel.mat</file>
+      <file>${PROJECT_ROOT}\SVFormatsChannel.mat</file>
+      <file>${PROJECT_ROOT}\svmpredict.mexw64</file>
+      <file>${PROJECT_ROOT}\TechlogChannelNameAll.mat</file>
+      <file>${PROJECT_ROOT}\TechlogDetectionAnalysis.m</file>
+      <file>${PROJECT_ROOT}\THMUtilities.dll</file>
+      <file>${PROJECT_ROOT}\TPFormatsChannel.mat</file>
+      <file>${PROJECT_ROOT}\Ultra_Techlog_model.mat</file>
+      <file>${PROJECT_ROOT}\UltraFormatsChannel.mat</file>
+      <file>${PROJECT_ROOT}\UltraTechlogHealthyTrainData.mat</file>
+      <file>${PROJECT_ROOT}\xlswrite1.m</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\EcoScope_HealthAnalyzer\for_testing" name="readme.txt" optional="true">D:\TFS_code\EcoScope\EcoScope_HealthAnalyzer\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\EcoScope_HealthAnalyzer\for_testing" name="splash.png" optional="false">D:\TFS_code\EcoScope\EcoScope_HealthAnalyzer\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\EcoScope_HealthAnalyzer\for_testing" name="EcoScope_HealthAnalyzer.exe" optional="false">D:\TFS_code\EcoScope\EcoScope_HealthAnalyzer\for_testing\EcoScope_HealthAnalyzer.exe</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2014b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.1</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
